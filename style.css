@@ -1,0 +1,18 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eee;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  margin: 5rem;
+  background-color: black;
+  box-shadow: 1rem 1rem 0 0 red, 2rem 2rem 0 0 green, 3rem 3rem 0 0 purple;
+}
+
+/*# sourceMappingURL=style.css.map */
