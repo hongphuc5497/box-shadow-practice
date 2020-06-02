@@ -11,14 +11,24 @@ body {
 //* Mixins
 @mixin box-shadow($shadows...) {
 	box-shadow: $shadows;
+	/*
+		box-shadow: x y blur scale color;
+	*/
 }
 
-.box {
-	width: 5rem;
-	height: 5rem;
-	margin: 5rem;
-	background-color: black;
+//* Captain shield
+.shield {
+	width: 10rem;
+	height: 10rem;
+	margin: 15rem;
 
-	//* box-shadow: x y blur scale color;
-	@include box-shadow(1rem 1rem 0 0 red, 2rem 2rem 0 0 green, 3rem 3rem 0 0 purple);
+	color: white;
+	background-color: #00aefd;
+
+	font-size: 8.5rem;
+	text-align: center;
+	line-height: 8.5rem;
+
+	border-radius: 50%;
+	@include box-shadow(0 0 0 3rem #f77870, 0 0 0 6rem white, 0 0 0 9rem #f77870);
 }
